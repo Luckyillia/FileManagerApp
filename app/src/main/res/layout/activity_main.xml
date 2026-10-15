@@ -8,6 +8,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         tools:context=".MainActivity">
     <LinearLayout
             android:layout_width="match_parent"
@@ -35,6 +36,7 @@
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recView"
             android:layout_width="match_parent"
+            android:orientation="vertical"
             android:layout_height="200dp"/>
     <EditText
             android:id="@+id/textInFile"
@@ -43,7 +45,7 @@
             android:ems="10"
             android:hint="Wpisz tekst...."
             android:layout_height="300dp"
-            android:gravity="left"
+            android:gravity="top|start"
             android:background="@null"
             android:scrollbars="vertical"/>
     <LinearLayout
@@ -53,25 +55,25 @@
                 android:id="@+id/newFile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Otworz"
+                android:text="Nowy"
                 android:layout_weight="1"/>
         <Button
                 android:id="@+id/saveFile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Otworz"
+                android:text="Zapisz"
                 android:layout_weight="1"/>
         <Button
                 android:id="@+id/closeFile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Otworz"
+                android:text="Zamknij"
                 android:layout_weight="1"/>
         <Button
                 android:id="@+id/deleteFile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Otworz"
+                android:text="Usun"
                 android:layout_weight="1"/>
     </LinearLayout>
 
