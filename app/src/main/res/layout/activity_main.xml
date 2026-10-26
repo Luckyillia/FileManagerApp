@@ -8,7 +8,11 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_gravity="center"
+<<<<<<< HEAD
         android:layout_margin="8dp"
+=======
+        android:layout_marginTop="20dp"
+>>>>>>> d40944afa7efeed889b83e6e33222d3fa5fce08b
         tools:context=".MainActivity">
     <LinearLayout
             android:layout_width="match_parent"
@@ -41,6 +45,7 @@
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvFile"
             android:layout_width="match_parent"
+            android:orientation="vertical"
             android:layout_height="200dp"/>
     <EditText
             android:id="@+id/textInFile"
@@ -49,9 +54,14 @@
             android:layout_marginTop="8dp"
             android:padding="12dp"
             android:hint="Wpisz tekst...."
+<<<<<<< HEAD
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="left"
+=======
+            android:layout_height="300dp"
+            android:gravity="top|start"
+>>>>>>> d40944afa7efeed889b83e6e33222d3fa5fce08b
             android:background="@null"
             android:scrollbars="vertical"/>
     <LinearLayout
@@ -62,25 +72,25 @@
                 android:id="@+id/newFile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Otworz"
+                android:text="Nowy"
                 android:layout_weight="1"/>
         <Button
                 android:id="@+id/saveFile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Otworz"
+                android:text="Zapisz"
                 android:layout_weight="1"/>
         <Button
                 android:id="@+id/closeFile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Otworz"
+                android:text="Zamknij"
                 android:layout_weight="1"/>
         <Button
                 android:id="@+id/deleteFile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Otworz"
+                android:text="Usun"
                 android:layout_weight="1"/>
     </LinearLayout>
 
